@@ -5,8 +5,9 @@ def read_ints():
     return [int(x) for x in input().split()]
 
 def solve():
-    pass
+    return 0
 
 tt = read_int()
 for cc in range(1, tt + 1):
-    print('Case #{}:'.format(cc))
+    ans = solve()
+    print(f'Case #{cc}: {ans}')
